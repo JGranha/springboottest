@@ -1,31 +1,12 @@
-2024-08-27T15:22:02.884+01:00  INFO 28992 --- [main] dark.shadowland.petproject.App           : Starting App using Java 17.0.10 with PID 28992 (/disk/Storage/workspace/petprojects/kdbrefresh/springboottest/target/classes started by jose in /disk/Storage/workspace/petprojects/kdbrefresh/springboottest)
-2024-08-27T15:22:02.886+01:00  INFO 28992 --- [main] dark.shadowland.petproject.App           : No active profile set, falling back to 1 default profile: "default"
-2024-08-27T15:22:03.137+01:00  INFO 28992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-08-27T15:22:03.149+01:00  INFO 28992 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
-2024-08-27T15:22:03.298+01:00  INFO 28992 --- [main] d.s.p.ReadConfig$$SpringCGLIB$$0         : Starting JPA Data source information
-2024-08-27T15:22:03.607+01:00  INFO 28992 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-08-27T15:22:04.018+01:00  INFO 28992 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-08-27T15:22:04.144+01:00  INFO 28992 --- [main] dark.shadowland.petproject.App           : Started App in 1.48 seconds (process running for 1.874)
-2024-08-27T15:22:04.150+01:00  INFO 28992 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-08-27T15:32:04.420+01:00  INFO 36230 --- [main] dark.shadowland.petproject.App           : Starting App using Java 17.0.10 with PID 36230 (/disk/Storage/workspace/petprojects/kdbrefresh/springboottest/target/classes started by jose in /disk/Storage/workspace/petprojects/kdbrefresh/springboottest)
-2024-08-27T15:32:04.421+01:00  INFO 36230 --- [main] dark.shadowland.petproject.App           : No active profile set, falling back to 1 default profile: "default"
-2024-08-27T15:32:04.712+01:00  INFO 36230 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-08-27T15:32:04.725+01:00  INFO 36230 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
-2024-08-27T15:32:04.907+01:00  INFO 36230 --- [main] d.s.p.ReadConfig$$SpringCGLIB$$0         : Starting JPA Data source information
-2024-08-27T15:32:05.270+01:00  INFO 36230 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-08-27T15:32:05.757+01:00  INFO 36230 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-08-27T15:32:05.879+01:00  INFO 36230 --- [main] dark.shadowland.petproject.App           : Started App in 1.726 seconds (process running for 2.178)
-2024-08-27T15:32:05.890+01:00  INFO 36230 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-08-27T15:45:33.717+01:00  INFO 45390 --- [main] dark.shadowland.petproject.App           : Starting App using Java 17.0.10 with PID 45390 (/disk/Storage/workspace/petprojects/kdbrefresh/springboottest/target/classes started by jose in /disk/Storage/workspace/petprojects/kdbrefresh/springboottest)
-2024-08-27T15:45:33.719+01:00  INFO 45390 --- [main] dark.shadowland.petproject.App           : No active profile set, falling back to 1 default profile: "default"
-2024-08-27T15:45:33.983+01:00  INFO 45390 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-08-27T15:45:33.995+01:00  INFO 45390 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
-2024-08-27T15:45:34.144+01:00  INFO 45390 --- [main] d.s.p.ReadConfig$$SpringCGLIB$$0         : Starting JPA Data source information
-2024-08-27T15:45:34.444+01:00  INFO 45390 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-08-27T15:45:34.914+01:00  INFO 45390 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-08-27T15:45:35.028+01:00  INFO 45390 --- [main] dark.shadowland.petproject.App           : Started App in 1.551 seconds (process running for 1.955)
-2024-08-27T15:45:35.030+01:00 ERROR 45390 --- [main] dark.shadowland.petproject.AppReady      : No profiles available!
-2024-08-27T15:45:35.291+01:00 ERROR 45390 --- [main] o.s.boot.SpringApplication               : Application run failed
+2024-08-28T00:44:08.717+01:00  INFO 6771 --- [main] dark.shadowland.petproject.App           : Starting App using Java 17.0.10 with PID 6771 (/disk/Storage/workspace/petprojects/kdbrefresh/springboottest/target/classes started by jose in /disk/Storage/workspace/petprojects/kdbrefresh/springboottest)
+2024-08-28T00:44:08.727+01:00  INFO 6771 --- [main] dark.shadowland.petproject.App           : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T00:44:09.053+01:00  INFO 6771 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28T00:44:09.069+01:00  INFO 6771 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2024-08-28T00:44:10.445+01:00  INFO 6771 --- [main] d.s.p.ReadConfig$$SpringCGLIB$$0         : Starting JPA Data source information
+2024-08-28T00:44:10.827+01:00  INFO 6771 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28T00:44:11.357+01:00  INFO 6771 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T00:44:11.487+01:00  INFO 6771 --- [main] dark.shadowland.petproject.App           : Started App in 3.064 seconds (process running for 3.877)
+2024-08-28T00:44:11.585+01:00 ERROR 6771 --- [main] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.jdbc.BadSqlGrammarException: StatementCallback; bad SQL grammar [SELECT count(1) from chairs]
 	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:112)
@@ -34,8 +15,8 @@ org.springframework.jdbc.BadSqlGrammarException: StatementCallback; bad SQL gram
 	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1548)
 	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:408)
 	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:476)
-	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:486)
-	at dark.shadowland.petproject.AppReady.onApplicationEvent(AppReady.java:39)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:481)
+	at dark.shadowland.petproject.AppReady.onApplicationEvent(AppReady.java:43)
 	at dark.shadowland.petproject.AppReady.onApplicationEvent(AppReady.java:1)
 	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
 	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
@@ -66,4 +47,287 @@ Caused by: org.postgresql.util.PSQLException: ERROR: permission denied for table
 	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:393)
 	... 19 common frames omitted
 
-2024-08-27T15:45:35.295+01:00  INFO 45390 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T00:44:11.589+01:00  INFO 6771 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T00:45:17.174+01:00  INFO 6961 --- [main] dark.shadowland.petproject.App           : Starting App using Java 17.0.10 with PID 6961 (/disk/Storage/workspace/petprojects/kdbrefresh/springboottest/target/classes started by jose in /disk/Storage/workspace/petprojects/kdbrefresh/springboottest)
+2024-08-28T00:45:17.175+01:00  INFO 6961 --- [main] dark.shadowland.petproject.App           : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T00:45:17.424+01:00  INFO 6961 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28T00:45:17.437+01:00  INFO 6961 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2024-08-28T00:45:17.586+01:00  INFO 6961 --- [main] d.s.p.ReadConfig$$SpringCGLIB$$0         : Starting JPA Data source information
+2024-08-28T00:45:17.880+01:00  INFO 6961 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28T00:45:18.349+01:00  INFO 6961 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T00:45:18.455+01:00  INFO 6961 --- [main] dark.shadowland.petproject.App           : Started App in 1.506 seconds (process running for 1.901)
+2024-08-28T00:45:18.549+01:00 ERROR 6961 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.jdbc.BadSqlGrammarException: StatementCallback; bad SQL grammar [SELECT count(1) from chairs]
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:112)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:116)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1548)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:408)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:476)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:481)
+	at dark.shadowland.petproject.AppReady.onApplicationEvent(AppReady.java:43)
+	at dark.shadowland.petproject.AppReady.onApplicationEvent(AppReady.java:1)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:452)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:385)
+	at org.springframework.boot.context.event.EventPublishingRunListener.ready(EventPublishingRunListener.java:109)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$ready$6(SpringApplicationRunListeners.java:80)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.ready(SpringApplicationRunListeners.java:80)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:349)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at dark.shadowland.petproject.App.main(App.java:11)
+Caused by: org.postgresql.util.PSQLException: ERROR: permission denied for table chairs
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:341)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:326)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:302)
+	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:251)
+	at org.springframework.jdbc.core.JdbcTemplate$1QueryStatementCallback.doInStatement(JdbcTemplate.java:463)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:393)
+	... 19 common frames omitted
+
+2024-08-28T00:45:18.553+01:00  INFO 6961 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T00:45:48.696+01:00  INFO 7035 --- [main] dark.shadowland.petproject.App           : Starting App using Java 17.0.10 with PID 7035 (/disk/Storage/workspace/petprojects/kdbrefresh/springboottest/target/classes started by jose in /disk/Storage/workspace/petprojects/kdbrefresh/springboottest)
+2024-08-28T00:45:48.698+01:00  INFO 7035 --- [main] dark.shadowland.petproject.App           : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T00:45:48.951+01:00  INFO 7035 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28T00:45:48.964+01:00  INFO 7035 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2024-08-28T00:45:49.112+01:00  INFO 7035 --- [main] d.s.p.ReadConfig$$SpringCGLIB$$0         : Starting JPA Data source information
+2024-08-28T00:45:49.453+01:00  INFO 7035 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28T00:45:49.882+01:00  INFO 7035 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T00:45:49.988+01:00  INFO 7035 --- [main] dark.shadowland.petproject.App           : Started App in 1.518 seconds (process running for 1.92)
+2024-08-28T00:45:50.121+01:00 ERROR 7035 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.jdbc.BadSqlGrammarException: StatementCallback; bad SQL grammar [SELECT count(1) from public.chairs]
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:112)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:116)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1548)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:408)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:476)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:481)
+	at dark.shadowland.petproject.AppReady.onApplicationEvent(AppReady.java:43)
+	at dark.shadowland.petproject.AppReady.onApplicationEvent(AppReady.java:1)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:452)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:385)
+	at org.springframework.boot.context.event.EventPublishingRunListener.ready(EventPublishingRunListener.java:109)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$ready$6(SpringApplicationRunListeners.java:80)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.ready(SpringApplicationRunListeners.java:80)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:349)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at dark.shadowland.petproject.App.main(App.java:11)
+Caused by: org.postgresql.util.PSQLException: ERROR: permission denied for table chairs
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:341)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:326)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:302)
+	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:251)
+	at org.springframework.jdbc.core.JdbcTemplate$1QueryStatementCallback.doInStatement(JdbcTemplate.java:463)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:393)
+	... 19 common frames omitted
+
+2024-08-28T00:45:50.125+01:00  INFO 7035 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T00:46:30.775+01:00  INFO 7098 --- [main] dark.shadowland.petproject.App           : Starting App using Java 17.0.10 with PID 7098 (/disk/Storage/workspace/petprojects/kdbrefresh/springboottest/target/classes started by jose in /disk/Storage/workspace/petprojects/kdbrefresh/springboottest)
+2024-08-28T00:46:30.776+01:00  INFO 7098 --- [main] dark.shadowland.petproject.App           : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T00:46:31.054+01:00  INFO 7098 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28T00:46:31.068+01:00  INFO 7098 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2024-08-28T00:46:31.224+01:00  INFO 7098 --- [main] d.s.p.ReadConfig$$SpringCGLIB$$0         : Starting JPA Data source information
+2024-08-28T00:46:31.535+01:00  INFO 7098 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28T00:46:32.091+01:00  INFO 7098 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T00:46:32.211+01:00  INFO 7098 --- [main] dark.shadowland.petproject.App           : Started App in 1.667 seconds (process running for 2.065)
+2024-08-28T00:46:32.278+01:00 ERROR 7098 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.jdbc.BadSqlGrammarException: StatementCallback; bad SQL grammar [SELECT count(*) from chairs]
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:112)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:116)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1548)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:408)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:476)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:481)
+	at dark.shadowland.petproject.AppReady.onApplicationEvent(AppReady.java:43)
+	at dark.shadowland.petproject.AppReady.onApplicationEvent(AppReady.java:1)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:452)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:385)
+	at org.springframework.boot.context.event.EventPublishingRunListener.ready(EventPublishingRunListener.java:109)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$ready$6(SpringApplicationRunListeners.java:80)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.ready(SpringApplicationRunListeners.java:80)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:349)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at dark.shadowland.petproject.App.main(App.java:11)
+Caused by: org.postgresql.util.PSQLException: ERROR: permission denied for table chairs
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:341)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:326)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:302)
+	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:251)
+	at org.springframework.jdbc.core.JdbcTemplate$1QueryStatementCallback.doInStatement(JdbcTemplate.java:463)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:393)
+	... 19 common frames omitted
+
+2024-08-28T00:46:32.281+01:00  INFO 7098 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T00:48:50.268+01:00  INFO 8470 --- [main] dark.shadowland.petproject.App           : Starting App using Java 17.0.10 with PID 8470 (/disk/Storage/workspace/petprojects/kdbrefresh/springboottest/target/classes started by jose in /disk/Storage/workspace/petprojects/kdbrefresh/springboottest)
+2024-08-28T00:48:50.269+01:00  INFO 8470 --- [main] dark.shadowland.petproject.App           : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T00:48:50.573+01:00  INFO 8470 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28T00:48:50.590+01:00  INFO 8470 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2024-08-28T00:48:50.780+01:00  INFO 8470 --- [main] d.s.p.ReadConfig$$SpringCGLIB$$0         : Starting JPA Data source information
+2024-08-28T00:48:51.107+01:00  INFO 8470 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28T00:48:51.589+01:00  INFO 8470 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T00:48:51.714+01:00  INFO 8470 --- [main] dark.shadowland.petproject.App           : Started App in 1.694 seconds (process running for 2.148)
+2024-08-28T00:48:51.851+01:00 ERROR 8470 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.jdbc.BadSqlGrammarException: StatementCallback; bad SQL grammar [SELECT COUNT(*) FROM chairs]
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:112)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:116)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1548)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:408)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:476)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:486)
+	at org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:519)
+	at org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:526)
+	at dark.shadowland.petproject.AppReady.onApplicationEvent(AppReady.java:43)
+	at dark.shadowland.petproject.AppReady.onApplicationEvent(AppReady.java:1)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:452)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:385)
+	at org.springframework.boot.context.event.EventPublishingRunListener.ready(EventPublishingRunListener.java:109)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$ready$6(SpringApplicationRunListeners.java:80)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.ready(SpringApplicationRunListeners.java:80)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:349)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at dark.shadowland.petproject.App.main(App.java:11)
+Caused by: org.postgresql.util.PSQLException: ERROR: permission denied for table chairs
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:341)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:326)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:302)
+	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:251)
+	at org.springframework.jdbc.core.JdbcTemplate$1QueryStatementCallback.doInStatement(JdbcTemplate.java:463)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:393)
+	... 21 common frames omitted
+
+2024-08-28T00:48:51.855+01:00  INFO 8470 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T00:49:34.507+01:00  INFO 8588 --- [main] dark.shadowland.petproject.App           : Starting App using Java 17.0.10 with PID 8588 (/disk/Storage/workspace/petprojects/kdbrefresh/springboottest/target/classes started by jose in /disk/Storage/workspace/petprojects/kdbrefresh/springboottest)
+2024-08-28T00:49:34.509+01:00  INFO 8588 --- [main] dark.shadowland.petproject.App           : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T00:49:34.791+01:00  INFO 8588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28T00:49:34.804+01:00  INFO 8588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2024-08-28T00:49:34.989+01:00  INFO 8588 --- [main] d.s.p.ReadConfig$$SpringCGLIB$$0         : Starting JPA Data source information
+2024-08-28T00:49:35.323+01:00  INFO 8588 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28T00:49:35.738+01:00  INFO 8588 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T00:49:35.868+01:00  INFO 8588 --- [main] dark.shadowland.petproject.App           : Started App in 1.602 seconds (process running for 2.064)
+2024-08-28T00:49:35.903+01:00  INFO 8588 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T11:34:41.560+01:00  INFO 4745 --- [main] dark.shadowland.petproject.App           : Starting App using Java 17.0.10 with PID 4745 (/disk/Storage/workspace/petprojects/kdbrefresh/springboottest/target/classes started by jose in /disk/Storage/workspace/petprojects/kdbrefresh/springboottest)
+2024-08-28T11:34:41.563+01:00  INFO 4745 --- [main] dark.shadowland.petproject.App           : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T11:34:41.909+01:00  INFO 4745 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28T11:34:41.928+01:00  INFO 4745 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2024-08-28T11:34:42.142+01:00  INFO 4745 --- [main] d.s.p.ReadConfig$$SpringCGLIB$$0         : Starting JPA Data source information
+2024-08-28T11:34:42.515+01:00  INFO 4745 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28T11:34:43.497+01:00  INFO 4745 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T11:34:43.605+01:00  INFO 4745 --- [main] dark.shadowland.petproject.App           : Started App in 2.307 seconds (process running for 2.843)
+2024-08-28T11:34:44.919+01:00  INFO 4745 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T11:43:45.720+01:00  INFO 7203 --- [main] dark.shadowland.petproject.App           : Starting App using Java 17.0.10 with PID 7203 (/disk/Storage/workspace/petprojects/kdbrefresh/springboottest/target/classes started by jose in /disk/Storage/workspace/petprojects/kdbrefresh/springboottest)
+2024-08-28T11:43:45.722+01:00  INFO 7203 --- [main] dark.shadowland.petproject.App           : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T11:43:45.993+01:00  INFO 7203 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28T11:43:46.005+01:00  INFO 7203 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2024-08-28T11:43:46.153+01:00  INFO 7203 --- [main] d.s.p.ReadConfig$$SpringCGLIB$$0         : Starting JPA Data source information
+2024-08-28T11:43:46.468+01:00  INFO 7203 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28T11:43:47.323+01:00  INFO 7203 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T11:43:47.429+01:00  INFO 7203 --- [main] dark.shadowland.petproject.App           : Started App in 1.946 seconds (process running for 2.356)
+2024-08-28T11:43:49.844+01:00 ERROR 7203 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.jdbc.BadSqlGrammarException: StatementCallback; bad SQL grammar [SELECT COUNT(*) FROM fabrication_process]
+	at org.springframework.jdbc.support.SQLStateSQLExceptionTranslator.doTranslate(SQLStateSQLExceptionTranslator.java:112)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:107)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:116)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1548)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:408)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:476)
+	at org.springframework.jdbc.core.JdbcTemplate.query(JdbcTemplate.java:486)
+	at org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:519)
+	at org.springframework.jdbc.core.JdbcTemplate.queryForObject(JdbcTemplate.java:526)
+	at dark.shadowland.petproject.AppReady.onApplicationEvent(AppReady.java:43)
+	at dark.shadowland.petproject.AppReady.onApplicationEvent(AppReady.java:1)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:185)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:178)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:156)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:452)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:385)
+	at org.springframework.boot.context.event.EventPublishingRunListener.ready(EventPublishingRunListener.java:109)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$ready$6(SpringApplicationRunListeners.java:80)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:118)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:112)
+	at org.springframework.boot.SpringApplicationRunListeners.ready(SpringApplicationRunListeners.java:80)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:349)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352)
+	at dark.shadowland.petproject.App.main(App.java:10)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "fabrication_process" does not exist
+  Position: 22
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2725)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2412)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:371)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:502)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:419)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:341)
+	at org.postgresql.jdbc.PgStatement.executeCachedSql(PgStatement.java:326)
+	at org.postgresql.jdbc.PgStatement.executeWithFlags(PgStatement.java:302)
+	at org.postgresql.jdbc.PgStatement.executeQuery(PgStatement.java:251)
+	at org.springframework.jdbc.core.JdbcTemplate$1QueryStatementCallback.doInStatement(JdbcTemplate.java:463)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:393)
+	... 21 common frames omitted
+
+2024-08-28T11:43:49.847+01:00  INFO 7203 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T11:45:00.513+01:00  INFO 8920 --- [main] dark.shadowland.petproject.App           : Starting App using Java 17.0.10 with PID 8920 (/disk/Storage/workspace/petprojects/kdbrefresh/springboottest/target/classes started by jose in /disk/Storage/workspace/petprojects/kdbrefresh/springboottest)
+2024-08-28T11:45:00.514+01:00  INFO 8920 --- [main] dark.shadowland.petproject.App           : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T11:45:00.789+01:00  INFO 8920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28T11:45:00.801+01:00  INFO 8920 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2024-08-28T11:45:00.953+01:00  INFO 8920 --- [main] d.s.p.ReadConfig$$SpringCGLIB$$0         : Starting JPA Data source information
+2024-08-28T11:45:01.255+01:00  INFO 8920 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28T11:45:01.743+01:00  INFO 8920 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T11:45:01.854+01:00  INFO 8920 --- [main] dark.shadowland.petproject.App           : Started App in 1.573 seconds (process running for 1.981)
+2024-08-28T11:45:01.925+01:00 ERROR 8920 --- [main] dark.shadowland.petproject.AppReady      : [Ljava.lang.StackTraceElement;@5f3f3d00
+2024-08-28T11:45:01.928+01:00  INFO 8920 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'

@@ -1,14 +1,20 @@
 package dark.shadowland.petproject;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.ApplicationListener;
 import org.springframework.core.env.Environment;
+import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.RowCallbackHandler;
 import org.springframework.stereotype.Component;
 
+import dark.shadowland.petproject.databasedto.FabricationProcesses;
 import jakarta.inject.Inject;
 
 @Component
@@ -32,11 +38,21 @@ public class AppReady implements ApplicationListener<ApplicationReadyEvent> {
         System.out.println("Currently active profile - " + profileName);
       }
     } else {
-      logger.atError().log("No profiles available!");
+      System.out.println("No profiles available!");
     }
-    
-    // Playing a bit with 
-    jdbcTemplate.query("SELECT count(1) from chairs", (rs, rownum) -> rs.getInt(0)).forEach(n -> System.out.println("Number of chairs:" + n) ); 
-    
+
+    try { // Playing a bit with
+      System.out.println(
+          "fabrication processes count: "
+              + jdbcTemplate.queryForObject(
+                  "SELECT COUNT(*) FROM fabrication_processes", Integer.class));
+    } catch (DataAccessException e) {
+      e.printStackTrace();
+      logger.atError().log("Something went wrong" + e.getStackTrace());
+    }
+
+    jdbcTemplate
+        .query("SELECT id, name from fabrication_processes", (rs, rownum) -> new FabricationProcesses(rs.getInt(1), rs.getString(2)))
+        .forEach(n -> System.out.println(n.toString()));
   }
 }
