@@ -2,6 +2,7 @@ package dark.shadowland.petproject;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.List;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,6 +16,7 @@ import org.springframework.jdbc.core.RowCallbackHandler;
 import org.springframework.stereotype.Component;
 
 import dark.shadowland.petproject.databasedto.FabricationProcesses;
+import dark.shadowland.petproject.jpa.FabricationProcessesRepository;
 import jakarta.inject.Inject;
 
 @Component
@@ -26,6 +28,8 @@ public class AppReady implements ApplicationListener<ApplicationReadyEvent> {
   @Autowired private Environment environment;
 
   @Autowired private JdbcTemplate jdbcTemplate;
+
+  @Autowired private FabricationProcessesRepository repository;
 
   @Override
   public void onApplicationEvent(ApplicationReadyEvent event) {
@@ -52,7 +56,12 @@ public class AppReady implements ApplicationListener<ApplicationReadyEvent> {
     }
 
     jdbcTemplate
-        .query("SELECT id, name from fabrication_processes", (rs, rownum) -> new FabricationProcesses(rs.getInt(1), rs.getString(2)))
+        .query(
+            "SELECT id, name from fabrication_processes",
+            (rs, rownum) -> new FabricationProcesses(rs.getInt(1), rs.getString(2)))
         .forEach(n -> System.out.println(n.toString()));
+
+    System.out.println("Another version"); 
+    repository.findAll().stream().forEach(n -> System.out.println(n.toString()));
   }
 }
