@@ -10,24 +10,17 @@ import lombok.Setter;
 
 @Entity
 public class FabricationProcesses {
-	private @Id
-	@Getter
-	@Setter
-	@GeneratedValue 
-	Long id;	
+  private @Id @Getter @Setter @GeneratedValue Long id;
 
-	@Getter
-	@Setter
-	private String name;
-	
-	
-	@Override
-	public int hashCode() {
-		return Objects.hash(this.id, this.name);
-	}
+  @Getter @Setter private String name;
 
-	@Override
-	public String toString() {
-		return "FabricationProcesses{" + "id=" + this.id + ", name='" + this.name + '}';
-	}
+  @Override
+  public int hashCode() {
+    return Objects.hash(this.id, this.name);
+  }
+
+  @Override
+  public String toString() {
+    return "FabricationProcesses{" + "id=" + this.id + ", name='" + this.name + '}';
+  }
 }

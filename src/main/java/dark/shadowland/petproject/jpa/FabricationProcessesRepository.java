@@ -1,11 +1,11 @@
 package dark.shadowland.petproject.jpa;
 
+import java.util.Optional;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 
+
 public interface FabricationProcessesRepository extends JpaRepository<FabricationProcesses, Long> {
-
-/*extends CrudRepository<FabricationProcesses, Long> {
-
-	FabricationProcesses findById(long id);*/
+	Optional<FabricationProcesses> findById(Long id);
 	
 }

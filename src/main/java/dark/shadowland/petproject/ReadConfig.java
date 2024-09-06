@@ -9,13 +9,12 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
-
 import lombok.Getter;
 
 @Configuration
 public class ReadConfig {
-  private Logger logger = LoggerFactory.getLogger(this.getClass()); 
-	
+  private Logger logger = LoggerFactory.getLogger(this.getClass());
+
   @Getter
   @Value("${app.datasource.url}")
   private String databaseUrl;
@@ -34,15 +33,20 @@ public class ReadConfig {
 
   @Bean
   public DataSource springJpaDataSource() {
-	logger.atInfo().log("Starting JPA Data source information"); 
-	
+    logger.atInfo().log("Starting JPA Data source information");
+
     DriverManagerDataSource dataSource = new DriverManagerDataSource();
-    
+
     dataSource.setUrl(databaseUrl);
     dataSource.setUsername(databaseUsername);
     dataSource.setPassword(databasePassword);
     dataSource.setDriverClassName(databaseDriver);
-    
+
+    //logger.atInfo().log("Database URL: " + databaseUrl);
+    //logger.atInfo().log("Database Username: " +  databaseUsername);
+    //logger.atInfo().log("Database Password: " +  databasePassword);
+    //logger.atInfo().log("Database Driver: " +  databaseDriver);
+
     return dataSource;
   }
 }
