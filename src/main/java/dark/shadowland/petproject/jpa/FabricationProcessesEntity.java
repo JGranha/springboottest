@@ -8,8 +8,9 @@ import jakarta.persistence.Id;
 import lombok.Getter;
 import lombok.Setter;
 
-@Entity
-public class FabricationProcesses {
+// If the name of the class is not the same as the table, them you need to specify the name
+@Entity(name = "FabricationProcesses")
+public class FabricationProcessesEntity {
   private @Id @Getter @Setter @GeneratedValue Long id;
 
   @Getter @Setter private String name;
@@ -21,6 +22,6 @@ public class FabricationProcesses {
 
   @Override
   public String toString() {
-    return "FabricationProcesses{" + "id=" + this.id + ", name='" + this.name + '}';
+    return "FabricationProcesses{" + "id=" + this.id + ", name='" + this.name + "'}";
   }
 }
